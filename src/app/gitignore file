@@ -1,0 +1,24 @@
+# Compiled Java files
+*.class
+
+# Build output
+bin/
+target/
+build/
+out/
+
+# STS/Eclipse settings
+.settings/
+.sts4-cache/
+
+# Logs
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local database configuration
+application-local.properties
+application-local.yml
