@@ -22,3 +22,5 @@ out/
 # Local database configuration
 application-local.properties
 application-local.yml
+/gitcmd.cmd
+/$null
