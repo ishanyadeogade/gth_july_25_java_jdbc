@@ -1,7 +1,19 @@
 
 
 drop table if exists employee;
-create table employee(id serial primary key ,name varchar(50),salary integer,age integer)
+create table employee(id serial primary key ,name varchar(50),salary integer,age integer);
+
+insert into employee
+select 1, 'Joseph', 45000, 25
+union select 2, 'Olivia', 55000, 28
+union select 3, 'Sara', 40000, 24
+union select 4, 'Levis', 60000, 30
+union select 5, 'Daniel', 35000, 23
+union select 6, 'Sophia', 70000, 32
+union select 7, 'Michael', 50000, 27
+union select 8, 'Emma', 65000, 29
+union select 9, 'William', 30000, 22
+union select 10, 'Isabella', 80000, 35;
 
 
 drop table if exists student_course_details;
